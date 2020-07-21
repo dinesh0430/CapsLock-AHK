@@ -14,6 +14,7 @@
     ;	Right          - l
     ;	Home           - n
     ;	End            - ;
+    ;	Enter          - m
 
 
     ;Esc                - CapsLock only
@@ -130,6 +131,12 @@ Capslock & c up::SendInput {Ctrl Up}{c Up}
 
 Capslock & v::SendInput {Ctrl Down}{v Down}
 Capslock & v up::SendInput {Ctrl Up}{v Up}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Enter Key
+; Capslock + m
+
+CapsLock & m::Send, {Enter}
+
 
 ^0::#space
 
